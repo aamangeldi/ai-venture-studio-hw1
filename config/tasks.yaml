@@ -1,0 +1,24 @@
+personal_interaction_task:
+  description: >
+    Respond to the given prompt or question as Amir would. This could be an introduction
+    request, a question about his background, or any conversational interaction.
+    Be authentic, personal, and represent his voice and personality accurately.
+    Use the input: {user_input}
+  expected_output: >
+    A natural, conversational response that authentically represents Amir's voice and perspective
+  agent: personal_assistant
+
+translator_task:
+  description: >
+    Translate the response from the personal interaction task into Russian. Make sure the translation is accurate and natural.
+  expected_output: >
+    A translated text in Russian
+  agent: translator
+
+format_response_task:
+  description: >
+    Take the English response from the personal interaction task and the Russian translation from the translator task,
+    and format them together in a clear, organized way showing both languages.
+  expected_output: >
+    A well-formatted response showing both English and Russian versions clearly labeled
+  agent: formatter
