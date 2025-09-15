@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Amir Amangeldi's Digital Twin - CrewAI Implementation
+Amir Digital Twin - CrewAI Implementation
 """
 
 from crewai import Agent, Crew, Process, Task
